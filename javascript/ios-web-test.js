@@ -3,8 +3,9 @@ import 'colors'
 import wd from 'wd'
 import {assert} from 'chai'
 
-const username = process.env.KOBITON_USERNAME
-const apiKey = process.env.KOBITON_API_KEY
+//const username = process.env.KOBITON_USERNAME 
+const username = minhtriet
+//const apiKey = process.env.KOBITON_API_KEY
 const deviceName = process.env.KOBITON_DEVICE_NAME || 'iPhone*'
 
 const kobitonServerConfig = {
